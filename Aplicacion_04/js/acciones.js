@@ -13,7 +13,7 @@ $(document).ready(function(e) {
  document.addEventListener("deviceready",function(){
   $('#B_Vibrar').tap(function(){
     navigator.notification.vibrate(500);
-	$('#beep').tap(function(){
+	$('#B_beep').tap(function(){
 	 navigator.notification.beep(2);	
   });
    });
